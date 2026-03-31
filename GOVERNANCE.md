@@ -9,6 +9,8 @@ Originating maintainer: The Mise En Scène Company (MSC)
 
 This taxonomy is originated and maintained by MSC. MSC holds no proprietary rights over it. The intent is to transfer governance to an appropriate industry body; the timeline for that depends on finding an institution willing to adopt the standard.
 
+v0.9 is currently open for public consultation. The consultation closes 30 June 2026. Responses should be submitted to contact@humanprovenance.film or via the GitHub repository.
+
 ---
 
 ## Amendment Process
@@ -27,13 +29,13 @@ To propose an amendment: email contact@humanprovenance.film, or open an issue or
 |---|---|---|
 | 0.9 | March 2026 | Initial release. Draft for consultation. |
 
-**Note for next release:** update the `description` field in `schema.json` to remove the "v0.9 draft for consultation" reference.
-
 ---
 
 ## Handoff
 
-MSC is committed to seeking a governance transfer to an appropriate body. Upon transfer, the originating repository will be archived with a redirect, and the CC BY 4.0 license will continue to apply to all versions published under MSC's stewardship.
+MSC is committed to seeking a governance transfer to an appropriate body. An appropriate body would be an established film industry standards organisation or regulatory body with the capacity to maintain and develop the standard on an ongoing basis. Upon transfer, the originating repository will be archived with a redirect, and the CC BY 4.0 license will continue to apply to all versions published under MSC's stewardship.
+
+In the event MSC is unable to continue maintaining the standard before a governance transfer is achieved, the most recent published version will remain available under CC BY 4.0. Any organisation may fork and maintain the standard under that licence. MSC will make reasonable efforts to notify known signatories and the GitHub repository community before any such discontinuation.
 
 ---
 
