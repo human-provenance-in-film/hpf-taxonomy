@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/human-provenance-in-film/hpf-taxonomy/main/schema.json",
+  "title": "HPF AI Disclosure Schema",
+  "description": "JSON Schema for HPF AI Disclosure metadata. v0.9 draft for consultation. Published by The Mise En Scene Company under CC BY 4.0.",
+  "type": "object",
+  "required": ["hpf_taxonomy_version", "hpf_classification"],
+  "properties": {
+    "hpf_taxonomy_version": {
+      "type": "string",
+      "description": "The version of the HPF Taxonomy applied to this record.",
+      "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?$",
+      "examples": ["0.9", "1.0"]
+    },
+    "hpf_classification": {
+      "type": "string",
+      "description": "The HPF disclosure tier for this production. Derived from a signed producer declaration held in the chain of title.",
+      "enum": ["no_ai", "assistive_ai", "generative_ai"],
+      "examples": ["no_ai"]
+    }
+  }
+}
