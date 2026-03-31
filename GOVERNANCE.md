@@ -1,7 +1,7 @@
 # HPF Taxonomy Governance
 
 **Version 0.9**
-Originating maintainer: The Mise En Scene Company (MSC)
+Originating maintainer: The Mise En Scène Company (MSC)
 
 ---
 
@@ -41,7 +41,7 @@ MSC is committed to seeking a governance transfer to an appropriate body. Upon t
 
 | Organization | Country | Signed |
 |---|---|---|
-| The Mise En Scene Company (MSC) | United Kingdom | February 2026 |
+| The Mise En Scène Company (MSC) | United Kingdom | February 2026 |
 
 To request the Statement of Shared Intent: contact@humanprovenance.film
 

@@ -3,117 +3,47 @@
 **Version 0.9 -- Draft for Consultation**
 Consultation closes 30 June 2026.
 
----
-
-## 1. Purpose
-
-This taxonomy establishes a shared vocabulary for AI disclosure in film and television. It is designed to be applied at the point of sale and carried in chain of title and deal documentation.
-
-The taxonomy exists to make the commercial value of human authorship legible. Without a consistent disclosure standard, there is no reliable market data on whether buyers and audiences distinguish between AI-generated and human-authored content.
+Full specification: [HPF_Taxonomy_v0_9_draft_for_consultation.pdf](HPF_Taxonomy_v0_9_draft_for_consultation.pdf)
 
 ---
 
-## 2. Scope
-
-This taxonomy applies to film and television productions entering commercial distribution through a sales agency, distributor, streaming platform, or broadcaster.
-
-It covers AI use at all stages of a production: development, pre-production, principal photography, and post-production. It does not cover standalone marketing materials or trailers produced separately from the film itself.
-
-**Note:** The exact scope is under consultation in v0.9. Edge cases at the boundary of these categories are open for comment — see Section 7.
-
----
-
-## 3. The Organizing Principle
-
-The distinction between tiers turns on a single question:
+## Organizing Principle
 
 > Does AI enhance human creative work, or does it replace human creative roles?
 
-If AI enhances human creative work: Tier 02 (Assistive AI).
-If AI replaces human creative roles: Tier 03 (Generative AI).
-If no AI was used at any stage: Tier 01 (No AI Used).
+---
+
+## Tier Reference
+
+| Value | Label | Definition |
+|---|---|---|
+| `no_ai` | No AI Used | No AI tools were used at any stage of development, production, or post-production. All elements are human-authored. |
+| `assistive_ai` | Assistive AI | AI enhanced or optimized elements created by human crew. No human creative or production roles were replaced. |
+| `generative_ai` | Generative AI | AI synthesized or generated content that a human crew member would otherwise have created. Human roles were replaced. |
+
+These values correspond directly to `hpf_classification` in [schema.json](schema.json).
 
 ---
 
-## 4. The Three Tiers
-
-### Tier 01: No AI Used
-
-No artificial intelligence tools were used at any stage of the development, production, or post-production of this film. All creative and production elements are human-authored.
-
-**Not considered AI for the purposes of this taxonomy:**
-- Traditional digital compositing and VFX using non-AI software
-- Standard digital color grading and audio processing
-- Algorithmic tools that do not use machine learning
-
----
-
-### Tier 02: Assistive AI
-
-AI tools were used in an assistive capacity. AI enhanced or optimized elements created by human crew. No human creative or production roles were replaced.
-
-**Examples:**
-- AI noise reduction applied to footage captured by a human camera operator
-- AI-assisted color matching between scenes shot by a human cinematographer
-- De-ageing applied to footage of a human actor's live performance
-- Automated transcription generated from a human performance
-
-**The test:** A human crew member would have performed this function without AI. AI enhanced or accelerated their output. The human role is unchanged.
-
----
-
-### Tier 03: Generative AI
-
-AI synthesized or generated content that a human crew member would otherwise have created. Human creative or production roles were replaced, whether wholly or in part.
-
-**Examples:**
-- AI-generated visual environments or backgrounds replacing location shoots or traditional set design
-- AI-generated voice performance replacing a human actor or voice artist
-- AI-generated music replacing a human composer or performer
-- AI-written screenplay elements incorporated into the final script
-
-**The test:** A human crew member would have performed this function without AI. AI generated the output in place of that human. The human role was replaced.
-
----
-
-## 5. The Classification Test
+## Classification Test
 
 For each use of AI in the production:
 
 1. Would a human crew member have performed this function if the AI tool were not available?
 2. If yes: did AI **enhance** their output, or did AI **replace** their contribution?
-3. Enhance: Tier 02. Replace: Tier 03.
+3. Enhance: `assistive_ai`. Replace: `generative_ai`.
 
-A production is classified at the highest tier applicable to any element. A film with both AI noise reduction (Tier 02) and an AI-generated score (Tier 03) is classified as Tier 03, with both uses described in the declaration.
-
----
-
-## 6. Edge Cases
-
-The following edge cases have initial guidance. Additional edge cases are under consultation in v0.9 -- see Section 7.
-
-**De-ageing vs. performance reconstruction**
-De-ageing a human actor's live performance using AI image processing is Tier 02 (the performance is the actor's; AI modifies the image only). Reconstructing a deceased actor's performance from AI synthesis is Tier 03 (the performance is generated by AI).
-
-**AI used in development only**
-Where AI tools were used in development (script coverage, pitch materials, lookbooks) but not in the production or post-production of the final film, the classification is Tier 01, provided the final screenplay and all production elements are human-authored.
-
-**Episodic content**
-Each episode should carry its own HPF classification. A series-level declaration should reflect the highest tier applicable to any episode in the series.
+A production is classified at the highest tier applicable to any element. A film with both AI noise reduction (`assistive_ai`) and an AI-generated score (`generative_ai`) is classified as `generative_ai`, with both uses described in the declaration.
 
 ---
 
-## 7. Consultation
+## Consultation
 
-Version 0.9 is a draft for consultation. The taxonomy is explicitly incomplete: edge cases, scope boundaries, and tier definitions are all open for comment.
-
-Feedback can be submitted by email to contact@humanprovenance.film or via the GitHub repository (issues or pull requests).
-
-Responses received before 30 June 2026 will inform the v1.0 revision.
+v0.9 is a draft for consultation. Feedback can be submitted to contact@humanprovenance.film or via the GitHub repository (issues or pull requests). Responses received before 30 June 2026 will inform the v1.0 revision.
 
 ---
 
-## 8. License
+## License
 
 CC BY 4.0. See [LICENSE.md](LICENSE.md).
 
