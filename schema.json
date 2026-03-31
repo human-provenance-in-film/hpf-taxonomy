@@ -2,14 +2,14 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/human-provenance-in-film/hpf-taxonomy/main/schema.json",
   "title": "HPF AI Disclosure Schema",
-  "description": "JSON Schema for HPF AI Disclosure metadata. v0.9 draft for consultation. Published by Human Provenance in Film under CC BY 4.0.",
+  "description": "JSON Schema for HPF AI Disclosure metadata. v0.9 draft for consultation. Published by Human Provenance in Film under CC BY 4.0. Both fields are required when an HPF record is present. Where no HPF declaration exists, omit the record entirely rather than writing null field values.",
   "type": "object",
   "required": ["hpf_taxonomy_version", "hpf_classification"],
   "properties": {
     "hpf_taxonomy_version": {
       "type": "string",
       "description": "The version of the HPF Taxonomy applied to this record.",
-      "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?$",
+      "pattern": "^[0-9]+\\.[0-9]+$",
       "examples": ["0.9", "1.0"]
     },
     "hpf_classification": {
