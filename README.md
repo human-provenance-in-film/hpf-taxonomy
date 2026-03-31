@@ -2,8 +2,7 @@
 
 **HPF AI Disclosure Taxonomy -- v0.9, Draft for Consultation**
 
-Published by The Mise En Scene Company (MSC).
-Consultation closes 1 May 2026.
+Consultation closes 30 June 2026.
 
 ---
 
@@ -17,45 +16,42 @@ The taxonomy exists to make the commercial value of human authorship legible. Wi
 
 ## The Three Tiers
 
-Built on a single organising principle: **does AI enhance human creative work, or does it replace human creative roles?**
+Built on a single organizing principle: **does AI enhance human creative work, or does it replace human creative roles?**
 
 | Tier | Label | Definition |
 |---|---|---|
 | 01 | No AI Used | No AI tools were used at any stage of this production. All elements are human-authored. |
-| 02 | Assistive AI | AI enhanced or optimised elements created by human crew. No human creative or production roles were replaced. |
-| 03 | Generative AI | AI synthesised or generated content that a human crew member would otherwise have created. Human roles were replaced, wholly or in part. |
+| 02 | Assistive AI | AI enhanced or optimized elements created by human crew. No human creative or production roles were replaced. |
+| 03 | Generative AI | AI synthesized or generated content that a human crew member would otherwise have created. Human roles were replaced, wholly or in part. |
 
-Full definitions, examples, edge cases, and implementation guidance are in [taxonomy.md](taxonomy.md).
+Full definitions, examples, edge cases, and the classification test are in [taxonomy.md](taxonomy.md).
 
 ---
 
-## How It Works in Practice
+## How Classification Is Delivered
 
-1. The producer completes a signed HPF AI Disclosure Declaration (one-page form: select a tier, describe any AI use, sign).
-2. The sales agency includes the signed declaration as a representation in the acquisition agreement.
-3. The HPF classification travels forward in deal memos and materials packages to all buyers, distributors, and platforms.
-4. Where there is no sales agent, the producer submits the declaration directly to the receiving party as part of deal documentation.
+The HPF classification travels in chain of title documentation as a signed producer declaration. It is not derived from technical analysis of the content — the receiving party (distributor, platform, broadcaster) relies on the declaration.
 
-Verification standard: reasonable commercial reliance on the producer's written declaration. Not a technical audit.
+For technical integration: see [schema.json](schema.json) and [c2pa-mapping.md](c2pa-mapping.md).
 
 ---
 
 ## Repository Contents
 
-| File | Audience |
+| File | Description |
 |---|---|
-| [taxonomy.md](taxonomy.md) | Everyone. Full tier definitions, classification test, edge cases, implementation. |
-| [HPF_AI_Disclosure_Sample_Template.pdf](HPF_AI_Disclosure_Sample_Template.pdf) | Producers. Printable one-page declaration form. |
-| [schema.json](schema.json) | Platform engineers and delivery system developers. JSON Schema for HPF metadata fields. |
-| [c2pa-mapping.md](c2pa-mapping.md) | Technical implementers. How HPF tiers map to C2PA assertion types. |
-| [GOVERNANCE.md](GOVERNANCE.md) | Amendment process and handoff commitment. |
+| [taxonomy.md](taxonomy.md) | Full tier definitions, organizing principle, classification test, and edge cases. |
+| [schema.json](schema.json) | JSON Schema for HPF metadata fields. For platform engineers and delivery system developers. |
+| [c2pa-mapping.md](c2pa-mapping.md) | Proposed mapping of HPF tiers to C2PA assertion types. Working proposal. |
+| [HPF_AI_Disclosure_Sample_Template.pdf](HPF_AI_Disclosure_Sample_Template.pdf) | Sample producer declaration form. |
+| [GOVERNANCE.md](GOVERNANCE.md) | Amendment process, version history, and governance handoff commitment. |
 | [LICENSE.md](LICENSE.md) | CC BY 4.0 and patent non-assertion. |
 
 ---
 
-## Licence
+## License
 
-CC BY 4.0. MSC asserts no patent rights over the taxonomy methodology. See [LICENSE.md](LICENSE.md).
+CC BY 4.0. No patent rights are asserted over the taxonomy methodology. See [LICENSE.md](LICENSE.md).
 
 ---
 

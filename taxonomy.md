@@ -1,14 +1,13 @@
 # HPF AI Disclosure Taxonomy
 
 **Version 0.9 -- Draft for Consultation**
-Published by The Mise En Scene Company (MSC)
-Consultation closes 1 May 2026.
+Consultation closes 30 June 2026.
 
 ---
 
 ## 1. Purpose
 
-This taxonomy establishes a shared vocabulary for AI disclosure in film and television. It is designed to be applied at the point of sale and embedded in chain of title and deal documentation.
+This taxonomy establishes a shared vocabulary for AI disclosure in film and television. It is designed to be applied at the point of sale and carried in chain of title and deal documentation.
 
 The taxonomy exists to make the commercial value of human authorship legible. Without a consistent disclosure standard, there is no reliable market data on whether buyers and audiences distinguish between AI-generated and human-authored content.
 
@@ -20,11 +19,11 @@ This taxonomy applies to film and television productions entering commercial dis
 
 It covers AI use at all stages of a production: development, pre-production, principal photography, and post-production. It does not cover standalone marketing materials or trailers produced separately from the film itself.
 
-**Note:** The exact scope of this taxonomy is under consultation in v0.9. If you have a production type that is not clearly covered or excluded, please submit feedback. See Section 7.
+**Note:** The exact scope is under consultation in v0.9. Edge cases at the boundary of these categories are open for comment — see Section 7.
 
 ---
 
-## 3. The Organising Principle
+## 3. The Organizing Principle
 
 The distinction between tiers turns on a single question:
 
@@ -44,18 +43,18 @@ No artificial intelligence tools were used at any stage of the development, prod
 
 **Not considered AI for the purposes of this taxonomy:**
 - Traditional digital compositing and VFX using non-AI software
-- Standard digital colour grading and audio processing
+- Standard digital color grading and audio processing
 - Algorithmic tools that do not use machine learning
 
 ---
 
 ### Tier 02: Assistive AI
 
-AI tools were used in an assistive capacity. AI enhanced or optimised elements created by human crew. No human creative or production roles were replaced.
+AI tools were used in an assistive capacity. AI enhanced or optimized elements created by human crew. No human creative or production roles were replaced.
 
 **Examples:**
 - AI noise reduction applied to footage captured by a human camera operator
-- AI-assisted colour matching between scenes shot by a human cinematographer
+- AI-assisted color matching between scenes shot by a human cinematographer
 - De-ageing applied to footage of a human actor's live performance
 - Automated transcription generated from a human performance
 
@@ -65,7 +64,7 @@ AI tools were used in an assistive capacity. AI enhanced or optimised elements c
 
 ### Tier 03: Generative AI
 
-AI synthesised or generated content that a human crew member would otherwise have created. Human creative or production roles were replaced, whether wholly or in part.
+AI synthesized or generated content that a human crew member would otherwise have created. Human creative or production roles were replaced, whether wholly or in part.
 
 **Examples:**
 - AI-generated visual environments or backgrounds replacing location shoots or traditional set design
@@ -83,7 +82,7 @@ For each use of AI in the production:
 
 1. Would a human crew member have performed this function if the AI tool were not available?
 2. If yes: did AI **enhance** their output, or did AI **replace** their contribution?
-3. Enhance -> Tier 02. Replace -> Tier 03.
+3. Enhance: Tier 02. Replace: Tier 03.
 
 A production is classified at the highest tier applicable to any element. A film with both AI noise reduction (Tier 02) and an AI-generated score (Tier 03) is classified as Tier 03, with both uses described in the declaration.
 
@@ -104,35 +103,18 @@ Each episode should carry its own HPF classification. A series-level declaration
 
 ---
 
-## 7. How This Works in Practice
-
-### Via a sales agency
-
-The producer completes the HPF AI Disclosure Declaration (see `HPF_AI_Disclosure_Sample_Template.pdf` in this repository). The sales agency includes the signed declaration as a representation and warranty in the acquisition agreement. The HPF classification is recorded in deal memos and included in all materials packages to buyers, distributors, and platforms.
-
-Where upstream documentation is incomplete, the sales agency's own certification at point of acquisition constitutes a valid representation.
-
-### Direct submission (no sales agent)
-
-Where there is no sales agent, the producer submits a signed disclosure declaration directly as part of deal documentation with the receiving party.
-
-**Verification standard:** Reasonable commercial reliance on the producer's written declaration. Liability for an inaccurate declaration sits with the producer who signed it.
-
----
-
-## 8. Consultation
+## 7. Consultation
 
 Version 0.9 is a draft for consultation. The taxonomy is explicitly incomplete: edge cases, scope boundaries, and tier definitions are all open for comment.
 
-To submit feedback, email contact@humanprovenance.film with the subject line "v0.9 Consultation Response". Include your name, organisation, and the section your feedback relates to. Amendments can also be proposed via the GitHub repository.
+Feedback can be submitted by email to contact@humanprovenance.film or via the GitHub repository (issues or pull requests).
 
-All responses received before 1 May 2026 will be reviewed for the v1.0 revision.
+Responses received before 30 June 2026 will inform the v1.0 revision.
 
 ---
 
-## 9. Licence
+## 8. License
 
 CC BY 4.0. See [LICENSE.md](LICENSE.md).
 
-*Human Provenance in Film -- An initiative of The Mise En Scene Company*
-*contact@humanprovenance.film*
+contact@humanprovenance.film

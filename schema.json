@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/human-provenance-in-film/hpf-taxonomy/main/schema.json",
   "title": "HPF AI Disclosure Schema",
-  "description": "JSON Schema for HPF AI Disclosure metadata. v0.9 draft for consultation. Published by The Mise En Scene Company under CC BY 4.0.",
+  "description": "JSON Schema for HPF AI Disclosure metadata. v0.9 draft for consultation. Published by Human Provenance in Film under CC BY 4.0.",
   "type": "object",
   "required": ["hpf_taxonomy_version", "hpf_classification"],
   "properties": {
