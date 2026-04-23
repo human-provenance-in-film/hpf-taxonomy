@@ -2,13 +2,13 @@
 
 **HPF AI Disclosure Taxonomy -- v0.9, Draft for Consultation**
 
-Consultation closes 30 June 2026.
+Consultation closes 31 October 2026.
 
 ---
 
 ## What This Is
 
-A three-tier classification standard for AI disclosure in film and television, designed to travel in chain of title and deal documentation (the legal and rights documentation that accompanies a film through distribution and licensing).
+A three-category classification standard for AI disclosure in film and television, designed to travel in chain of title and deal documentation (the legal and rights documentation that accompanies a film through distribution and licensing).
 
 Without a consistent disclosure standard, there is no reliable market data on whether buyers and audiences distinguish between AI-generated and human-authored content.
 
@@ -29,7 +29,7 @@ The full taxonomy specification, producer declaration form, and plain-language g
 
 ---
 
-## The Three Tiers
+## The Three Categories
 
 Built on a single organizing principle: **does AI enhance human creative work, or does it replace human creative roles?**
 
@@ -39,7 +39,7 @@ Built on a single organizing principle: **does AI enhance human creative work, o
 | `assistive_ai` | Assistive AI |
 | `generative_ai` | Generative AI |
 
-For tier definitions, scope, classification test, and edge cases: [taxonomy.md](taxonomy.md).
+For category definitions, scope, classification test, and edge cases: [taxonomy.md](taxonomy.md).
 
 ---
 
@@ -74,10 +74,10 @@ Pending broader adoption, delivery portal and ingest systems, and post-productio
 
 | File | Description |
 |---|---|
-| [taxonomy.md](taxonomy.md) | Tier definitions, organizing principle, classification test, scope, and edge cases. |
+| [taxonomy.md](taxonomy.md) | Category definitions, organizing principle, classification test, scope, and edge cases. |
 | [schema.json](schema.json) | JSON Schema for HPF metadata fields. For platform engineers and ingest system developers. |
 | [INTEGRATION.md](INTEGRATION.md) | Implementation guide for platform, sales agency, ingest, delivery portal, post-production tool, and C2PA developers. |
-| [c2pa-mapping.md](c2pa-mapping.md) | Proposed mapping of HPF tiers to C2PA assertion types. Working proposal. |
+| [c2pa-mapping.md](c2pa-mapping.md) | Proposed mapping of HPF categories to C2PA assertion types. Working proposal. |
 | [GOVERNANCE.md](GOVERNANCE.md) | Amendment process, version history, and governance handoff commitment. |
 | [LICENSE.md](LICENSE.md) | CC BY 4.0 and patent non-assertion. |
 

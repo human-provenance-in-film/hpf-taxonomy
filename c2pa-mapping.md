@@ -83,7 +83,7 @@ This assertion is placed in the `assertions` array of a C2PA claim, alongside an
 
 `hpf_classification` must be one of the three values defined in [schema.json](schema.json). Treat schema.json as the authoritative source for the enum definition.
 
-`hpf_taxonomy_version` follows the pattern `major.minor` (e.g. `0.9`, `1.0`). Treat it as a string identifier, not a numeric version for comparison purposes. A major version increment (e.g. `0.x` to `1.0`) may indicate a change to the classification test or tier definitions; implementations should flag assertions carrying an unrecognised major version for manual review rather than silently accepting or rejecting them. Minor version increments are clarifications only and do not affect how existing classifications should be interpreted. Existing assertions are not invalidated by a version increment.
+`hpf_taxonomy_version` follows the pattern `major.minor` (e.g. `0.9`, `1.0`). Treat it as a string identifier, not a numeric version for comparison purposes. A major version increment (e.g. `0.x` to `1.0`) may indicate a change to the classification test or category definitions; implementations should flag assertions carrying an unrecognised major version for manual review rather than silently accepting or rejecting them. Minor version increments are clarifications only and do not affect how existing classifications should be interpreted. Existing assertions are not invalidated by a version increment.
 
 The value of `hpf_classification` maps loosely to IPTC `digitalSourceType` as follows:
 
@@ -127,7 +127,7 @@ The `digitalSourceType` URL in the example assertion uses `http://cv.iptc.org/ne
 
 | Version | Date | Notes |
 |---|---|---|
-| 0.9 | March 2026 | Initial working proposal. C2PA working group discussion not yet opened. |
+| 0.9 | April 2026 | Initial working proposal. C2PA working group discussion not yet opened. |
 
 ---
 

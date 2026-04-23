@@ -1,7 +1,7 @@
 # HPF AI Disclosure Taxonomy
 
 **Version 0.9 -- Draft for Consultation**
-Consultation closes 30 June 2026.
+Consultation closes 31 October 2026.
 
 ---
 
@@ -9,9 +9,9 @@ Consultation closes 30 June 2026.
 
 > Does AI enhance human creative work, or does it replace human creative roles?
 
-This is the single question that determines the tier. Its simplicity is a design requirement: a taxonomy that requires specialist knowledge to apply will not be applied consistently across the sector.
+This is the single question that determines the category. Its simplicity is a design requirement: a taxonomy that requires specialist knowledge to apply will not be applied consistently across the sector.
 
-For the purposes of this taxonomy, artificial intelligence is defined in the `no_ai` tier below.
+For the purposes of this taxonomy, artificial intelligence is defined in the `no_ai` category below.
 
 ---
 
@@ -25,11 +25,11 @@ For each use of AI in the production:
 
 Where no human would have performed the function at all (for example, AI crowd replication at a scale that would never have been achieved practically), the question becomes whether the AI-generated content appears in the finished work in a role a human crew member would otherwise have filled. If yes: `generative_ai`.
 
-A production is classified at the highest tier applicable to any element. A film with both AI noise reduction (`assistive_ai`) and an AI-generated score (`generative_ai`) is classified as `generative_ai`, with both uses described in the declaration.
+A production is classified at the highest category applicable to any element. A film with both AI noise reduction (`assistive_ai`) and an AI-generated score (`generative_ai`) is classified as `generative_ai`, with both uses described in the declaration.
 
 ---
 
-## Tiers
+## Categories
 
 | `hpf_classification` | Label |
 |---|---|
@@ -94,7 +94,7 @@ This taxonomy covers AI use in development, production, and post-production of t
 - Basic automation in standard long-standing industry use: loudness normalisation, timecode tools, spell-check
 - AI used solely in development that leaves no trace in the finished film
 
-The lead producer must use the highest tier applicable across all co-producers and contractors. This prevents co-production structures from obscuring AI use that would otherwise require disclosure.
+The lead producer must use the highest category applicable across all co-producers and contractors. This prevents co-production structures from obscuring AI use that would otherwise require disclosure.
 
 Where classification is incorporated into a deal or licensing agreement as a producer representation, misclassification is a matter of contractual liability. This gives the framework legal enforceability without requiring new regulatory infrastructure.
 
@@ -124,7 +124,7 @@ A live-action film with AI-generated title sequences, interstitials, or stylised
 
 ### Episodic and series content
 
-How the taxonomy applies to episodic and series content is an open question for the consultation. The provisional position is that classification applies per episode, with the highest tier used across any episode applying where a series is classified as a whole. Whether classification should be required at the title, season, or episode level individually is unresolved. Input is welcome.
+How the taxonomy applies to episodic and series content is an open question for the consultation. The provisional position is that classification applies per episode, with the highest category used across any episode applying where a series is classified as a whole. Whether classification should be required at the title, season, or episode level individually is unresolved. Input is welcome.
 
 ### Re-edits and director's cuts
 
@@ -146,7 +146,7 @@ HPF covers production-level AI disclosure: what AI was used in making the finish
 
 **Verification standard:** verification under HPF means reasonable commercial reliance on the producer's signed declaration, not a technical audit of the production's tools or workflows. This is the same standard that applies to all producer representations in chain of title documentation. The remedy for misrepresentation is a matter for the contract between the parties. HPF does not operate an independent verification or audit function.
 
-**Audience disclosure:** HPF governs how classification travels through the supply chain, from producer to platform. It does not currently mandate how platforms surface classification to audiences. Display standards are an open question for the consultation; the framework's open questions list addresses this explicitly. Productions and platforms seeking to make audience-facing disclosure are encouraged to engage with the consultation on what display standards should require.
+**Audience disclosure:** HPF governs how classification travels through the distribution chain, from producer to platform. It does not currently mandate how platforms surface classification to audiences. Display standards are an open question for the consultation; the framework's open questions list addresses this explicitly. Productions and platforms seeking to make audience-facing disclosure are encouraged to engage with the consultation on what display standards should require.
 
 **Jurisdiction:** HPF is designed to be jurisdiction-agnostic. The classification standard applies regardless of where the production originates or is distributed. It is intended to support disclosure obligations across multiple regulatory regimes, including the EU AI Act, UK AI regulatory frameworks, and platform-level obligations under applicable broadcasting and online safety legislation. Producers and platforms should take independent legal advice on how HPF adoption interacts with their specific regulatory obligations.
 
@@ -156,7 +156,7 @@ The framework is prospective in nature. It applies to productions that adopt it 
 
 ## Consultation
 
-v0.9 is a draft for consultation. Feedback can be submitted to contact@humanprovenance.film or via the GitHub repository (issues or pull requests). Responses received before 30 June 2026 will inform the v1.0 revision.
+v0.9 is a draft for consultation. Feedback can be submitted to contact@humanprovenance.film or via the GitHub repository (issues or pull requests). Responses received before 31 October 2026 will inform the v1.0 revision.
 
 For technical implementation guidance: [INTEGRATION.md](INTEGRATION.md).
 

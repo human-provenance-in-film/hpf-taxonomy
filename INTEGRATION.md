@@ -38,7 +38,7 @@ When a delivery arrives with an HPF declaration, read the declared classificatio
 }
 ```
 
-`hpf_classification` must be one of the three defined values: `no_ai`, `assistive_ai`, `generative_ai`. These map directly to the tiers in the producer's declaration. If the declaration uses natural language rather than the enum values, return it to the producer or sales agent for clarification before writing a value. Do not interpret or assign a classification independently.
+`hpf_classification` must be one of the three defined values: `no_ai`, `assistive_ai`, `generative_ai`. These map directly to the categories in the producer's declaration. If the declaration uses natural language rather than the enum values, return it to the producer or sales agent for clarification before writing a value. Do not interpret or assign a classification independently.
 
 Store the full schema object alongside the title record in your content catalogue or CMS. Include both fields in metadata exchanges with distribution partners where AI disclosure is relevant, rather than the classification value alone. Do not pass `hpf_classification` without `hpf_taxonomy_version`. The version field is required: the classification test may change across major versions.
 
@@ -68,7 +68,7 @@ HPF does not currently prescribe how platforms should display classification to 
 
 What HPF does specify: the classification must not be altered or reinterpreted in display. A title declared as `assistive_ai` must not be shown as `no_ai`.
 
-One non-binding reference implementation: a label on the title detail page, using the tier labels from [taxonomy.md](taxonomy.md), displayed alongside other production information (year, country, rating). For example:
+One non-binding reference implementation: a label on the title detail page, using the category labels from [taxonomy.md](taxonomy.md), displayed alongside other production information (year, country, rating). For example:
 
 - **No AI Used**
 - **Assistive AI**
@@ -82,7 +82,7 @@ Prominence, placement, and visual treatment are at platform discretion. Feedback
 
 v0.9 is a draft for consultation. The schema fields and enum values are stable and are not expected to change at v1.0. Changes at v1.0 are expected to affect the taxonomy definitions and edge case guidance, not the data model.
 
-Records written with `"hpf_taxonomy_version": "0.9"` will remain valid after v1.0 is published. They do not need to be re-classified unless the classification of specific content changes as a result of revised tier definitions — in which case the producer, not the platform, is responsible for issuing an updated declaration. Platforms should store the version field precisely as received to preserve the record of which taxonomy version governed the original classification.
+Records written with `"hpf_taxonomy_version": "0.9"` will remain valid after v1.0 is published. They do not need to be re-classified unless the classification of specific content changes as a result of revised category definitions — in which case the producer, not the platform, is responsible for issuing an updated declaration. Platforms should store the version field precisely as received to preserve the record of which taxonomy version governed the original classification.
 
 ### AI content detection tools
 
@@ -192,9 +192,9 @@ At scale, manual translation of declarations into content catalogue fields is a 
 
 Delivery portals operate in two distinct contexts, each requiring different UX.
 
-**Platform-operated portals** (intake interfaces used by content operations staff at the receiving distributor or streamer): the ops team translates the signed producer declaration into the classification field. Present the three-option selection alongside a free-text notes field where staff can record the source document reference. If no declaration arrives with the submission, leave the HPF record absent and flag the absence for follow-up — do not infer a value. Include the tier definitions from [taxonomy.md](taxonomy.md) in-context so staff can verify the translation without leaving the portal.
+**Platform-operated portals** (intake interfaces used by content operations staff at the receiving distributor or streamer): the ops team translates the signed producer declaration into the classification field. Present the three-option selection alongside a free-text notes field where staff can record the source document reference. If no declaration arrives with the submission, leave the HPF record absent and flag the absence for follow-up — do not infer a value. Include the category definitions from [taxonomy.md](taxonomy.md) in-context so staff can verify the translation without leaving the portal.
 
-**Producer-facing portals** (submission interfaces used by producers or sales agents to deliver content outbound): the producer fills the classification field themselves. Display the organizing principle and all three tier definitions in-context at the point of classification, linking to [taxonomy.md](taxonomy.md) for the full classification test and edge cases. Do not require the producer to navigate to humanprovenance.film to classify. If the producer does not provide a declaration, the field should be optional at v0.9: submission proceeds, no HPF record is written.
+**Producer-facing portals** (submission interfaces used by producers or sales agents to deliver content outbound): the producer fills the classification field themselves. Display the organizing principle and all three category definitions in-context at the point of classification, linking to [taxonomy.md](taxonomy.md) for the full classification test and edge cases. Do not require the producer to navigate to humanprovenance.film to classify. If the producer does not provide a declaration, the field should be optional at v0.9: submission proceeds, no HPF record is written.
 
 Festival and broadcaster submission systems fall into this category. Producers submitting directly — without a sales agent — may be encountering HPF for the first time at the submission form. In this context, in-context definitions and a link to humanprovenance.film are especially important. Note that a declaration made at festival submission is not automatically incorporated into a contract; the festival or broadcaster receiving the submission should consider how to carry the classification forward into screening agreements and programme documentation if they wish to use it downstream.
 
@@ -230,7 +230,7 @@ If you are building toward HPF support, contact contact@humanprovenance.film. Ea
 
 ## Open Questions
 
-The following are unresolved in v0.9 and are part of the consultation (closes 30 June 2026):
+The following are unresolved in v0.9 and are part of the consultation (closes 31 October 2026):
 
 - **Signing authority:** who holds and signs the `hpf.film.ai_disclosure` C2PA assertion in a distribution context
 - **Display standards:** how platforms surface HPF classification to end users
@@ -250,7 +250,7 @@ To contribute: open an issue or pull request on the repository, or email contact
 
 | Version | Date | Notes |
 |---|---|---|
-| 0.9 | March 2026 | Initial working document. |
+| 0.9 | April 2026 | Initial working document. |
 
 ---
 

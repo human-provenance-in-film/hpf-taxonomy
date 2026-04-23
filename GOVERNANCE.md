@@ -9,7 +9,7 @@ Originating maintainer: The Mise En Scène Company (MSC)
 
 This taxonomy is originated and maintained by MSC. MSC holds no proprietary rights over it. The intent is to transfer governance to an appropriate industry body; the timeline for that depends on finding an institution willing to adopt the standard.
 
-v0.9 is currently open for public consultation. The consultation closes 30 June 2026. Responses should be submitted to contact@humanprovenance.film or via the GitHub repository.
+v0.9 is currently open for public consultation. The consultation closes 31 October 2026. Responses should be submitted to contact@humanprovenance.film or via the GitHub repository.
 
 ---
 
@@ -17,7 +17,7 @@ v0.9 is currently open for public consultation. The consultation closes 30 June 
 
 **Minor amendments** (typos, clarifications, additional examples that do not change how productions are classified) can be made by MSC without a consultation period. They are noted in the version history.
 
-**Substantive amendments** (changes to tier definitions, the organizing principle, or the classification test) require a minimum 30-day consultation period. MSC will notify known signatories before any substantive amendment takes effect.
+**Substantive amendments** (changes to category definitions, the organizing principle, or the classification test) require a minimum 30-day consultation period. MSC will notify known signatories before any substantive amendment takes effect.
 
 To propose an amendment: email contact@humanprovenance.film, or open an issue or pull request on the GitHub repository. MSC will acknowledge within 5 working days.
 
@@ -27,7 +27,7 @@ To propose an amendment: email contact@humanprovenance.film, or open an issue or
 
 | Version | Date | Summary |
 |---|---|---|
-| 0.9 | March 2026 | Initial release. Draft for consultation. |
+| 0.9 | April 2026 | Initial release. Draft for consultation. |
 
 ---
 
@@ -43,7 +43,7 @@ In the event MSC is unable to continue maintaining the standard before a governa
 
 | Organization | Country | Signed |
 |---|---|---|
-| The Mise En Scène Company (MSC) | United Kingdom | February 2026 |
+| The Mise En Scène Company (MSC) | United Kingdom | 2026 |
 
 To request the Statement of Shared Intent: contact@humanprovenance.film
 
